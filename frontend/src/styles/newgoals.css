@@ -1,0 +1,50 @@
+.gridContainer {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#containerCenterFormulaire {
+  margin: 0 auto;
+  width: 90%;
+  height: auto;
+}
+#labelSelect {
+  position: relative;
+  left: 0px;
+}
+#idSelect {
+  display: block;
+  height: 27px;
+  border-radius: 5px;
+  border: none;
+  width: 329px;
+  margin: 15px auto;
+  color: #0d5ed7;
+}
+#containerFlexNewGoals {
+  display: flex;
+  justify-content: space-around;
+}
+#leftFormNewGoals {
+  margin: 0px 10px;
+}
+#idTextarea {
+  display: block;
+  height: 27px;
+  border-radius: 5px;
+  border: none;
+  width: 329px;
+  height: 70px;
+  margin: 15px auto;
+  color: #0d5ed7;
+}
+#btnNewSubGoals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#marginSubGoalsBtn {
+  margin: 0 10px;
+}

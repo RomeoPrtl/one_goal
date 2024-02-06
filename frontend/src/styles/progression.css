@@ -1,0 +1,76 @@
+.gridContainer {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#containerDashboardCardProgression {
+  grid-column: 2 / 9;
+  grid-row: 2 / 9;
+  margin: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  min-height: 900px;
+  gap: 10px;
+}
+#titreChart {
+  color: #0d5ed7;
+  margin: 30px 20px;
+  font-size: 18px;
+  padding: 0;
+}
+.containerChart {
+  width: 580px;
+  height: auto;
+}
+#containerPresentationChart {
+  display: flex;
+  margin: 50px;
+  justify-content: space-around;
+  height: 500px;
+}
+#containerChartLeft {
+  margin: 5px;
+}
+#containerChartRight {
+  margin: 5px;
+}
+#containerLevelProgressBar {
+  display: flex;
+  font-weight: bolder;
+  justify-content: space-between;
+}
+#containerProgressBar {
+  padding: 0px 80px;
+}
+
+.wrapper {
+  border: none;
+  border-radius: 15px;
+}
+
+.container {
+  height: 50px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+.barCompleted {
+  height: 50px;
+  border-radius: 15px 0px 0px 15px;
+  background-color: #0b2d61;
+  width: 80%;
+  text-align: center;
+}
+
+.label {
+  position: relative;
+  top: 11px;
+  width: 30%;
+  font-size: 20px;
+  color: white;
+}
+#rou {
+  margin: 0 auto;
+}

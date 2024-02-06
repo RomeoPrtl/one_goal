@@ -1,0 +1,30 @@
+.gridContainer {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#firstElipse {
+  border-radius: 100%;
+  border: 2px dotted white;
+  width: 200px;
+  margin: 40px auto;
+  height: 200px;
+  text-align: center;
+}
+#secondElipse {
+  border-radius: 100%;
+  margin: 26px auto;
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+#secondElipse:hover {
+  background-color: #d1d6dd;
+}
+#iconNewPhoto {
+  margin: 47px 4px 0 0;
+  width: 40px;
+  height: 40px;
+}

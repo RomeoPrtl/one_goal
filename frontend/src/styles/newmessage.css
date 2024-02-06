@@ -1,0 +1,10 @@
+#idTextareaMessage {
+  display: block;
+  /* height: 27px; */
+  border-radius: 5px;
+  border: none;
+  width: 329px;
+  height: 186px;
+  margin: 15px auto;
+  color: #0d5ed7;
+}

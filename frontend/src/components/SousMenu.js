@@ -1,10 +1,13 @@
 import "../styles/sousmenu.css";
-const SousMenu = ({ nameSousMenu, icon }) => {
+import { Link } from "react-router-dom";
+const SousMenu = ({ nameSousMenu, icon, path }) => {
   return (
     <>
       <div id="flexContainerSousMenu">
         <img id="icon" src={icon} />
-        <p>{nameSousMenu}</p>
+        <Link id="lien" className="lienClasse" to={`/${path}`}>
+          {nameSousMenu}
+        </Link>
       </div>
     </>
   );

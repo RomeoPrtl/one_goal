@@ -14,24 +14,48 @@ const Menu = () => {
     <>
       <div id="containerMenu">
         <img id="logoOneGoal" src={logo} />
-        <ul>
-          <li>
-            <SousMenu nameSousMenu={"Tableau de Bord"} icon={iconHome} />
+        <ul id="ulSousMenu">
+          <li className="liSousMenu">
+            <SousMenu
+              path={""}
+              nameSousMenu={"Tableau de bord"}
+              icon={iconHome}
+            />
           </li>
-          <li>
-            <SousMenu nameSousMenu={"Profile"} icon={iconProfile} />
+          <li className="liSousMenu">
+            <SousMenu
+              path={"profile"}
+              nameSousMenu={"Profile"}
+              icon={iconProfile}
+            />
           </li>
-          <li>
-            <SousMenu nameSousMenu={"Mes Objectifs"} icon={iconMyGoals} />
+          <li className="liSousMenu">
+            <SousMenu
+              path={"mygoals"}
+              nameSousMenu={"Mes Objectifs"}
+              icon={iconMyGoals}
+            />
           </li>
-          <li>
-            <SousMenu nameSousMenu={"Nouvelle Objectif"} icon={iconNewGoals} />
+          <li className="liSousMenu">
+            <SousMenu
+              path={"newgoals"}
+              nameSousMenu={"Nouvelle Objectif"}
+              icon={iconNewGoals}
+            />
           </li>
-          <li>
-            <SousMenu nameSousMenu={"Progression"} icon={iconProgression} />
+          <li className="liSousMenu">
+            <SousMenu
+              path={"progression"}
+              nameSousMenu={"Progression"}
+              icon={iconProgression}
+            />
           </li>
-          <li>
-            <SousMenu nameSousMenu={"Journal de Bord"} icon={iconLookBook} />
+          <li className="liSousMenu">
+            <SousMenu
+              path={"logbook"}
+              nameSousMenu={"Journal de Bord"}
+              icon={iconLookBook}
+            />
           </li>
         </ul>
       </div>

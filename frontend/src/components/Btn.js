@@ -1,8 +1,8 @@
 import "../styles/btn.css";
-const Btn = () => {
+const Btn = ({ title, style }) => {
   return (
     <>
-      <button>Se déconnecter</button>
+      <button style={style}>{title}</button>
     </>
   );
 };

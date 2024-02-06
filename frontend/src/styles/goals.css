@@ -1,0 +1,92 @@
+#titleGoals {
+  color: #0d5ed7;
+  margin-top: 20px;
+}
+#containerSousSousObjectif {
+  width: 250px;
+  text-align: center;
+  padding: 10px;
+  margin: 15px auto;
+}
+
+.soussousObjectif {
+  color: #0d5ed7;
+  width: 90%;
+  margin: 5px;
+  padding: 3px;
+  /* list-style: none; */
+}
+#containerSousObjectif {
+  width: 30%;
+}
+.sousObjectif {
+  list-style: none;
+}
+.btnSousObjectif {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #0d5ed7;
+  width: 350px;
+  height: 50px;
+  color: #0d5ed7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#sphere {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #0d5ed7;
+}
+#containerSousObjectif {
+  display: flex;
+  width: 90%;
+  margin: 50px auto;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#containerGoals {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 45px;
+}
+#containerLeftGoals {
+  display: flex;
+  align-items: flex-start;
+  width: 50%;
+}
+.liResumeGoals {
+  text-align: left;
+  margin: 5px;
+  color: #0d5ed7;
+  list-style: none;
+}
+.liDescGoals {
+  color: #0d5ed7;
+  list-style: none;
+  margin: 5px;
+}
+#ulDescGoals {
+  display: flex;
+}
+#containerLeftDescGoals {
+  text-align: left;
+}
+#containerRightDescGoals {
+  text-align: left;
+  margin-left: 30px;
+  width: 50%;
+}
+#btnFlexContainerGoals {
+  position: relative;
+  left: 100%;
+  height: 10%;
+  top: 40%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+#rtrt {
+  background-color: blue;
+}

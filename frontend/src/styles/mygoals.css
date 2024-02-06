@@ -1,0 +1,19 @@
+.gridContainer {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#newGoalsBtn {
+  grid-column: "1 / 2";
+  grid-row: "1 / 2";
+}
+
+#flexContainerItemCardMyGoals {
+  display: flex;
+  margin: 50px auto;
+  width: 90%;
+  height: auto;
+  flex-wrap: wrap;
+  gap: 10px;
+}

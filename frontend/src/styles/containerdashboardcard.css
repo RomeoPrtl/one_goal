@@ -1,0 +1,94 @@
+#containerDashboardCard {
+  grid-column: 2 / 9;
+  grid-row: 2 / 9;
+  margin: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  min-height: 900px;
+  gap: 10px;
+}
+
+.liDashboardCard {
+  position: relative;
+  right: 21px;
+  margin-top: 15px;
+  list-style: none;
+  font-size: 12px;
+  font-weight: bolder;
+}
+.flexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: #0d5ed7;
+}
+.ContainerCircularProgressBar {
+  margin-left: 40px;
+}
+#containerSelectDashboardCard {
+  text-align: center;
+}
+.selectGoalsDashboardCard {
+  padding: 10px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: white;
+  color: #0d5ed7;
+}
+fieldset {
+  width: 500px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  background-color: white;
+  color: #0d5ed7;
+}
+input {
+  margin: 10px;
+}
+h4 {
+  margin-top: 10px;
+  text-align: center;
+}
+#flexContainerItemCard {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+#flexContainerItemCardMessage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+p {
+  font-size: 12px;
+}
+#dateMessage {
+  position: relative;
+  bottom: 20px;
+  color: #a7a7a7;
+}
+#categorieMessage {
+  position: relative;
+  bottom: 20px;
+}
+#titreMessage {
+  font-size: 16px;
+  position: relative;
+  bottom: 20px;
+}
+#flexContainerItemMessage {
+  align-items: center;
+  display: flex;
+  margin-top: 35px;
+}
+h4 {
+  font-size: 12px;
+}

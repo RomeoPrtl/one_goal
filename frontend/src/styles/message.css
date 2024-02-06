@@ -1,0 +1,35 @@
+#categorieMessageUnique {
+  text-align: center;
+  color: #0d5ed7;
+}
+#flexContainerMessage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#dateMessageUnique {
+  margin: 20px;
+  color: rgb(186, 179, 179);
+}
+#titreMessageUnique {
+  color: #0d5ed7;
+}
+#containerMessageUnique {
+  background-color: #0d5ed7;
+  width: 70%;
+  height: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 10px;
+}
+#message {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+#btnFlexContainerMessage {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
